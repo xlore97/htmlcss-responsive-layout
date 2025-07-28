@@ -123,8 +123,11 @@ main {
     font-size: 18px;
 }
 
+/* Banner */
 
-
+.main-banner img {
+    width: 100%;
+}
 
 
 
