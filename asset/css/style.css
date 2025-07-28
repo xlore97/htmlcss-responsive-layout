@@ -194,8 +194,61 @@ footer {
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .footer-sx-down {
     color: white;
+}
+
+
+/* Responsive Tablet */
+@media screen and (max-width:768px) {
+
+    .main-video {
+        flex: 2;
+        min-width: 500px;
+        background-color: white;
+        position: relative;
+        aspect-ratio: 16 / 9;
+    }
+
+    .main-title h1 {
+        color: #4E3969;
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    .social .badge span {
+        display: none;
+    }
+
+    .social .badge {
+        padding: 12px 29px;
+    }
+
+    footer {
+        background-color: #7C69A4;
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-sx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 6px;
+    }
+
+    .footer-dx ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-right: 16px;
+        list-style-type: none;
+    }
 }
