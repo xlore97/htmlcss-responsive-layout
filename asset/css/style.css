@@ -304,6 +304,9 @@ footer {
     }
 
     .video-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
         flex: 1;
         min-width: 240px;
         background-color: white;
@@ -314,6 +317,8 @@ footer {
     }
 
     .video-info h3 {
+        grid-column: auto;
+        margin-bottom: 10px;
         font-size: 14px;
     }
 
