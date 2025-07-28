@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+    font-family: 'Nerko One';
+    min-height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Nerko One';
+    color: #FF9614;
+    font-size: 64px;
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    position: absolute;
+    left: 50px;
+}
