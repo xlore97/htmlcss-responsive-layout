@@ -173,4 +173,29 @@ main {
 footer {
     background-color: #7C69A4;
     min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-dx ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 16px;
+    list-style-type: none;
+}
+
+.footer-dx a {
+    color: white;
+}
+
+.footer-sx-up {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-sx-down {
+    color: white;
 }
