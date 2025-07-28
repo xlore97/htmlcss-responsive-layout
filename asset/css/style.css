@@ -94,6 +94,34 @@ main {
     top: 0;
 }
 
+/* Social */
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f4f2f0;
+    gap: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.social .badge {
+    background-color: white;
+    border-radius: 50px;
+    padding: 12px 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.social .badge i {
+    font-size: 18px;
+}
 
 
 
