@@ -8,7 +8,7 @@
 header {
     font-family: 'Nerko One';
     min-height: 100px;
-    background-color: black;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
 }
@@ -24,9 +24,18 @@ header h1 {
 }
 
 
+main {
+    background-color: #F6F5F3;
+    display: flex;
+    justify-content: center;
+}
 
-
-
+.container {
+    background-color: yellow;
+    min-height: 550px;
+    width: 80%;
+    margin-top: 100px;
+}
 
 
 
