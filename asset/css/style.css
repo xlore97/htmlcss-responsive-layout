@@ -218,6 +218,23 @@ footer {
         aspect-ratio: 16 / 9;
     }
 
+    .video-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        align-items: start;
+    }
+
+    .video-info h3 {
+        grid-column: span 3;
+        margin-bottom: 10px;
+    }
+
+    .video-info p {
+        margin: 0;
+        font-size: 18px !important;
+    }
+
     .main-title h1 {
         color: #4E3969;
         font-size: 32px;
@@ -230,6 +247,11 @@ footer {
 
     .social .badge {
         padding: 12px 49px;
+    }
+
+
+    .clearfix {
+        font-size: 19px;
     }
 
     footer {
