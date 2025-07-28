@@ -116,11 +116,11 @@ main {
     gap: 10px;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .social .badge i {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Banner */
@@ -129,11 +129,42 @@ main {
     width: 100%;
 }
 
+/* Main content */
 
+.main-content h2 {
+    margin-top: 32px;
+    font-weight: 100;
+    font-size: 40px;
+}
 
+.main-content h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #F7972E;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
 
+.float-sx {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
 
+.clearfix {
+    font-size: 23px;
+    margin-bottom: 128px;
+}
 
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
 
 
 
